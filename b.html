@@ -1,0 +1,2758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Burhanpur: The Historical Jewel of Madhya Pradesh</title>
+<!-- Bootstrap CSS for responsive and attractive design -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Custom CSS for additional styling -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+--primary-color: #8b0000;
+--secondary-color: #daa520;
+--accent-color: #2c3e50;
+--light-bg: #f8f9fa;
+--text-color: #333;
+--gradient-overlay: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5));
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: var(--light-bg);
+color: var(--text-color);
+overflow-x: hidden;
+line-height: 1.6;
+}
+
+/* Enhanced Loading Screen */
+.loader-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+z-index: 9999;
+transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.loader {
+position: relative;
+width: 120px;
+height: 120px;
+margin-bottom: 20px;
+}
+
+.loader-circle {
+position: absolute;
+border: 4px solid transparent;
+border-top-color: var(--secondary-color);
+border-radius: 50%;
+animation: spin 1.5s linear infinite;
+}
+
+.loader-circle:nth-child(1) {
+width: 120px;
+height: 120px;
+animation-duration: 1.5s;
+}
+
+.loader-circle:nth-child(2) {
+width: 90px;
+height: 90px;
+top: 15px;
+left: 15px;
+animation-duration: 1.2s;
+border-top-color: var(--primary-color);
+}
+
+.loader-circle:nth-child(3) {
+width: 60px;
+height: 60px;
+top: 30px;
+left: 30px;
+animation-duration: 0.9s;
+border-top-color: #fff;
+}
+
+.loader-text {
+color: white;
+font-size: 1.5rem;
+font-weight: 600;
+letter-spacing: 2px;
+animation: pulse 1.5s infinite;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+0% { opacity: 0.7; }
+50% { opacity: 1; }
+100% { opacity: 0.7; }
+}
+
+/* Enhanced Hero Section */
+.hero-section {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://z-cdn-media.chatglm.cn/files/36e9583b-8e8e-4de0-95f6-e49003fe80d8.jpg?auth_key=1865796751-7db5071290a94e32a14278bcd039c7cd-0-923bdbb9f16689e0c1cbcfb67552150f') no-repeat center center;
+background-size: cover;
+background-attachment: fixed;
+color: white;
+padding: 150px 0 80px;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+
+.hero-section::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+z-index: 1;
+}
+
+.hero-content {
+position: relative;
+z-index: 2;
+}
+
+.hero-section h1 {
+font-family: 'Playfair Display', serif;
+font-size: clamp(2.5rem, 5vw, 4.5rem);
+font-weight: 700;
+text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+margin-bottom: 20px;
+animation: fadeInDown 1s ease;
+}
+
+.hero-section p {
+font-size: clamp(1.2rem, 3vw, 1.5rem);
+animation: fadeInUp 1s ease 0.5s both;
+}
+
+.decorative-line {
+width: 150px;
+height: 3px;
+background: var(--secondary-color);
+margin: 20px auto;
+position: relative;
+}
+
+.decorative-line::before {
+content: '';
+position: absolute;
+top: -5px;
+left: 50%;
+transform: translateX(-50%);
+width: 10px;
+height: 10px;
+background: var(--secondary-color);
+border-radius: 50%;
+}
+
+.decorative-line::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 50%;
+transform: translateX(-50%);
+width: 10px;
+height: 10px;
+background: var(--secondary-color);
+border-radius: 50%;
+}
+
+/* Section Spacing */
+.section-padding {
+padding: 60px 0;
+}
+
+.section-padding-sm {
+padding: 30px 0;
+}
+
+.section-padding-lg {
+padding: 80px 0;
+}
+
+/* Enhanced Section Title */
+.section-title {
+font-family: 'Playfair Display', serif;
+color: var(--primary-color);
+position: relative;
+display: inline-block;
+padding-bottom: 15px;
+margin-bottom: 30px;
+font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.section-title::after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 80px;
+height: 3px;
+background: var(--secondary-color);
+}
+
+/* Enhanced Navbar */
+.navbar {
+background-color: var(--accent-color) !important;
+padding: 15px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+padding: 10px 0;
+background-color: rgba(44, 62, 80, 0.95) !important;
+}
+
+.navbar-brand {
+font-weight: 700;
+font-size: 1.3rem;
+color: var(--secondary-color) !important;
+}
+
+.nav-link {
+color: white !important;
+font-weight: 500;
+margin: 0 8px;
+transition: color 0.3s ease;
+position: relative;
+font-size: 0.95rem;
+}
+
+.nav-link::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 0;
+height: 2px;
+background-color: var(--secondary-color);
+transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+width: 100%;
+}
+
+.nav-link:hover, .nav-link.active {
+color: var(--secondary-color) !important;
+}
+
+/* Enhanced Card Design */
+.card {
+margin-bottom: 30px;
+border: none;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+position: relative;
+height: 100%;
+}
+
+.card::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 5px;
+background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+.card:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+height: 200px;
+width: 100%;
+object-fit: cover;
+transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+transform: scale(1.05);
+}
+
+.card-body {
+padding: 20px;
+}
+
+.card-title {
+color: var(--accent-color);
+font-weight: 600;
+margin-bottom: 15px;
+font-size: 1.2rem;
+}
+
+/* Paragraph Spacing */
+p {
+margin-bottom: 1.5rem;
+word-wrap: break-word;
+}
+
+.lead {
+font-size: 1.1rem;
+font-weight: 300;
+margin-bottom: 2rem;
+}
+
+/* Enhanced Timeline */
+.timeline {
+position: relative;
+padding: 20px 0;
+}
+
+.timeline::before {
+content: '';
+position: absolute;
+top: 0;
+left: 50%;
+width: 2px;
+height: 100%;
+background: var(--secondary-color);
+}
+
+.timeline-item {
+margin-bottom: 50px;
+position: relative;
+}
+
+.timeline-content {
+width: 45%;
+padding: 20px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+transform: scale(1.02);
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+margin-left: auto;
+}
+
+.timeline-dot {
+position: absolute;
+top: 20px;
+left: 50%;
+transform: translateX(-50%);
+width: 20px;
+height: 20px;
+background: var(--primary-color);
+border-radius: 50%;
+border: 4px solid white;
+box-shadow: 0 0 0 4px var(--secondary-color);
+}
+
+/* Enhanced Food Gallery */
+.food-gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+margin: 40px 0;
+}
+
+.food-gallery-item {
+width: min(300px, 100%);
+height: 250px;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+position: relative;
+}
+
+.food-gallery-item:hover {
+transform: scale(1.05);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.food-gallery-item img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.5s ease;
+}
+
+.food-gallery-item:hover img {
+transform: scale(1.1);
+}
+
+.food-caption {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+color: white;
+padding: 12px;
+text-align: center;
+font-size: 16px;
+transform: translateY(100%);
+transition: transform 0.3s ease;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.food-gallery-item:hover .food-caption {
+transform: translateY(0);
+}
+
+/* Enhanced Gallery */
+.gallery-item {
+margin-bottom: 30px;
+overflow: hidden;
+border-radius: 15px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+transition: transform 0.3s ease;
+position: relative;
+}
+
+.gallery-item:hover {
+transform: scale(1.05);
+}
+
+.gallery-item img {
+width: 100%;
+height: 250px;
+object-fit: cover;
+transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+transform: scale(1.1);
+}
+
+.gallery-overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+color: white;
+padding: 15px;
+transform: translateY(100%);
+transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+transform: translateY(0);
+}
+
+/* Enhanced Testimonial Cards */
+.testimonial-card {
+background: white;
+border-radius: 15px;
+padding: 25px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+margin-bottom: 30px;
+position: relative;
+transition: transform 0.3s ease;
+height: 100%;
+}
+
+.testimonial-card:hover {
+transform: translateY(-5px);
+}
+
+.testimonial-card::before {
+content: '"';
+position: absolute;
+top: -20px;
+left: 20px;
+font-size: 80px;
+color: var(--secondary-color);
+opacity: 0.3;
+font-family: Georgia, serif;
+}
+
+.testimonial-text {
+font-style: italic;
+margin-bottom: 20px;
+position: relative;
+z-index: 1;
+font-size: 0.95rem;
+}
+
+.testimonial-author {
+display: flex;
+align-items: center;
+}
+
+.author-avatar {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 15px;
+object-fit: cover;
+border: 3px solid var(--secondary-color);
+}
+
+.author-name {
+font-weight: 600;
+margin-bottom: 0;
+font-size: 1rem;
+}
+
+.author-location {
+color: #666;
+font-size: 0.85rem;
+}
+
+/* Enhanced Footer */
+footer {
+background-color: var(--accent-color);
+color: white;
+padding: 40px 0 20px;
+text-align: center;
+}
+
+/* Enhanced Music Player */
+.music-player {
+position: fixed;
+bottom: 20px;
+left: 20px;
+background-color: rgba(44, 62, 80, 0.9);
+border-radius: 50px;
+padding: 12px 20px;
+display: flex;
+align-items: center;
+z-index: 1000;
+box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+transition: all 0.3s ease;
+max-width: calc(100% - 40px);
+}
+
+.music-player:hover {
+background-color: rgba(44, 62, 80, 1);
+transform: translateY(-5px);
+}
+
+.music-controls {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.music-player i {
+color: var(--secondary-color);
+font-size: 1.2rem;
+cursor: pointer;
+transition: color 0.3s ease;
+}
+
+.music-player i:hover {
+color: white;
+}
+
+.music-player span {
+color: white;
+font-size: 0.8rem;
+margin-left: 8px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+max-width: 120px;
+}
+
+.music-progress {
+width: 60px;
+height: 4px;
+background-color: rgba(255,255,255,0.3);
+border-radius: 2px;
+overflow: hidden;
+margin: 0 8px;
+}
+
+.music-progress-bar {
+height: 100%;
+background-color: var(--secondary-color);
+width: 0%;
+transition: width 0.1s linear;
+}
+
+.music-volume {
+display: none;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: var(--primary-color);
+color: white;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+opacity: 0;
+visibility: hidden;
+transition: all 0.3s ease;
+z-index: 1000;
+}
+
+.scroll-to-top.show {
+opacity: 1;
+visibility: visible;
+}
+
+.scroll-to-top:hover {
+background-color: var(--secondary-color);
+transform: translateY(-5px);
+}
+
+/* Image Modal */
+.image-modal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.9);
+animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+margin: auto;
+display: block;
+width: 90%;
+max-width: 700px;
+max-height: 80vh;
+margin-top: 10vh;
+object-fit: contain;
+}
+
+.close {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #f1f1f1;
+font-size: 40px;
+font-weight: bold;
+cursor: pointer;
+z-index: 1001;
+}
+
+.close:hover {
+color: #bbb;
+}
+
+/* Parallax Sections */
+.parallax-section {
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.parallax-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.5);
+}
+
+.parallax-content {
+position: relative;
+z-index: 2;
+padding: 80px 0;
+color: white;
+text-align: center;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+from {
+opacity: 0;
+transform: translateY(-30px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(30px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeIn {
+from {opacity: 0}
+to {opacity: 1}
+}
+
+/* Tourism Image Styles */
+.tourism-image {
+position: relative;
+margin-bottom: 30px;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+transition: transform 0.3s ease;
+}
+
+.tourism-image:hover {
+transform: translateY(-5px);
+}
+
+.tourism-image img {
+width: 100%;
+height: 250px;
+object-fit: cover;
+}
+
+.tourism-caption {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+.tourism-caption h5 {
+margin-bottom: 5px;
+font-size: 1.1rem;
+}
+
+.tourism-caption p {
+margin-bottom: 0;
+font-size: 0.9rem;
+}
+
+/* Hospital Card Styles */
+.hospital-card {
+background: white;
+border-radius: 15px;
+padding: 25px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+margin-bottom: 30px;
+transition: transform 0.3s ease;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.hospital-card:hover {
+transform: translateY(-5px);
+}
+
+.hospital-logo {
+max-height: 100px;
+margin-bottom: 15px;
+object-fit: contain;
+}
+
+.hospital-name {
+color: var(--primary-color);
+font-weight: 600;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.hospital-specialty {
+color: var(--accent-color);
+font-size: 0.95rem;
+margin-bottom: 10px;
+}
+
+.hospital-address {
+color: #666;
+font-size: 0.85rem;
+margin-bottom: 15px;
+}
+
+.hospital-contact {
+display: flex;
+justify-content: space-between;
+margin-top: auto;
+}
+
+.hospital-contact a {
+color: var(--secondary-color);
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s ease;
+font-size: 0.9rem;
+}
+
+.hospital-contact a:hover {
+color: var(--primary-color);
+}
+
+/* School Card Styles */
+.school-card {
+background: white;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+margin-bottom: 30px;
+transition: transform 0.3s ease;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.school-card:hover {
+transform: translateY(-5px);
+}
+
+.school-image {
+height: 180px;
+width: 100%;
+object-fit: cover;
+}
+
+.school-content {
+padding: 20px;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+
+.school-name {
+color: var(--primary-color);
+font-weight: 600;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.school-type {
+color: var(--accent-color);
+font-size: 0.9rem;
+margin-bottom: 10px;
+}
+
+.school-description {
+color: #666;
+font-size: 0.85rem;
+margin-bottom: 15px;
+flex-grow: 1;
+}
+
+.school-contact {
+display: flex;
+justify-content: space-between;
+margin-top: auto;
+}
+
+.school-contact a {
+color: var(--secondary-color);
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s ease;
+font-size: 0.9rem;
+}
+
+.school-contact a:hover {
+color: var(--primary-color);
+}
+
+/* Person Image Styles */
+.person-image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.person-container {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+overflow: hidden;
+margin: 0 auto 15px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+border: 3px solid var(--secondary-color);
+}
+
+/* Featured Institution Badge */
+.featured-badge {
+position: absolute;
+top: 10px;
+right: 10px;
+background-color: var(--secondary-color);
+color: white;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 0.8rem;
+font-weight: 600;
+z-index: 10;
+box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Info Box Styles */
+.info-box {
+background: white;
+border-radius: 15px;
+padding: 25px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+margin-bottom: 25px;
+}
+
+.info-box h3 {
+color: var(--primary-color);
+margin-bottom: 20px;
+font-size: 1.6rem;
+}
+
+.info-box h4 {
+color: var(--accent-color);
+margin-bottom: 12px;
+font-size: 1.3rem;
+}
+
+.info-box ul {
+padding-left: 20px;
+margin-bottom: 0;
+}
+
+.info-box li {
+margin-bottom: 10px;
+font-size: 0.95rem;
+}
+
+/* Image Container Styles */
+.img-container {
+position: relative;
+width: 100%;
+overflow: hidden;
+border-radius: 10px;
+}
+
+.img-fallback {
+display: none;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 200px;
+background-color: #f0f0f0;
+color: #666;
+text-align: center;
+padding: 20px;
+}
+
+.img-fallback i {
+font-size: 3rem;
+margin-bottom: 15px;
+color: var(--accent-color);
+}
+
+.img-fallback h5 {
+margin-bottom: 10px;
+font-size: 1.1rem;
+}
+
+.img-fallback p {
+margin: 0;
+font-size: 0.9rem;
+}
+
+/* Makers Section Styles */
+.makers-section {
+background: linear-gradient(135deg, rgba(139, 0, 0, 0.05), rgba(218, 165, 32, 0.1));
+border-radius: 15px;
+padding: 40px;
+margin-bottom: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+position: relative;
+overflow: hidden;
+}
+
+.makers-section::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 5px;
+height: 100%;
+background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+}
+
+.makers-section h3 {
+color: var(--primary-color);
+margin-bottom: 30px;
+font-size: 1.8rem;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.makers-list {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
+}
+
+.maker-item {
+background: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+text-align: center;
+min-width: 250px;
+transition: transform 0.3s ease;
+}
+
+.maker-item:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.maker-item h4 {
+color: var(--primary-color);
+margin-bottom: 5px;
+font-size: 1.2rem;
+}
+
+.maker-item .role {
+color: var(--secondary-color);
+font-weight: 600;
+font-size: 0.95rem;
+}
+
+/* Special Thanks Section Styles */
+.special-thanks {
+background: linear-gradient(135deg, rgba(139, 0, 0, 0.05), rgba(218, 165, 32, 0.1));
+border-radius: 15px;
+padding: 30px;
+margin-bottom: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+position: relative;
+overflow: hidden;
+}
+
+.special-thanks::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 5px;
+height: 100%;
+background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+}
+
+.special-thanks h3 {
+color: var(--primary-color);
+margin-bottom: 20px;
+font-size: 1.8rem;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.special-thanks-content {
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.special-thanks-logo {
+flex-shrink: 0;
+width: 150px;
+height: 150px;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.special-thanks-logo img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.special-thanks-text {
+flex-grow: 1;
+}
+
+.special-thanks-text h4 {
+color: var(--accent-color);
+margin-bottom: 15px;
+font-size: 1.4rem;
+}
+
+.special-thanks-text p {
+margin-bottom: 15px;
+font-size: 1rem;
+line-height: 1.6;
+}
+
+.special-thanks-text ul {
+padding-left: 20px;
+margin-bottom: 0;
+}
+
+.special-thanks-text li {
+margin-bottom: 8px;
+font-size: 0.95rem;
+}
+
+/* Past Section Styles */
+.past-section {
+background: linear-gradient(135deg, rgba(139, 0, 0, 0.05), rgba(218, 165, 32, 0.1));
+border-radius: 15px;
+padding: 40px;
+margin-bottom: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+position: relative;
+overflow: hidden;
+}
+
+.past-section::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 5px;
+height: 100%;
+background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+}
+
+.past-section h3 {
+color: var(--primary-color);
+margin-bottom: 30px;
+font-size: 1.8rem;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.past-gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+margin: 30px 0;
+}
+
+.past-item {
+position: relative;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+transition: transform 0.3s ease;
+}
+
+.past-item:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.past-item img {
+width: 100%;
+height: 250px;
+object-fit: cover;
+transition: transform 0.5s ease;
+}
+
+.past-item:hover img {
+transform: scale(1.05);
+}
+
+.past-caption {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+.past-caption h5 {
+margin-bottom: 5px;
+font-size: 1.1rem;
+}
+
+.past-caption p {
+margin-bottom: 0;
+font-size: 0.9rem;
+}
+
+/* Image Grid for Multiple Images */
+.image-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+margin-top: 15px;
+}
+
+.image-grid-item {
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+}
+
+.image-grid-item:hover {
+transform: translateY(-5px);
+}
+
+.image-grid-item img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+}
+
+/* Restaurant and Hotel Card Styles */
+.restaurant-card, .hotel-card {
+background: white;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+margin-bottom: 30px;
+transition: transform 0.3s ease;
+height: 100%;
+}
+
+.restaurant-card:hover, .hotel-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.restaurant-image, .hotel-image {
+height: 220px;
+width: 100%;
+object-fit: cover;
+transition: transform 0.5s ease;
+}
+
+.restaurant-card:hover .restaurant-image, .hotel-card:hover .hotel-image {
+transform: scale(1.05);
+}
+
+.restaurant-content, .hotel-content {
+padding: 20px;
+}
+
+.restaurant-name, .hotel-name {
+color: var(--primary-color);
+font-weight: 600;
+font-size: 1.3rem;
+margin-bottom: 10px;
+}
+
+.restaurant-type, .hotel-type {
+color: var(--accent-color);
+font-size: 0.95rem;
+margin-bottom: 10px;
+}
+
+.restaurant-description, .hotel-description {
+color: #666;
+font-size: 0.9rem;
+margin-bottom: 15px;
+}
+
+.rating {
+color: var(--secondary-color);
+margin-bottom: 15px;
+}
+
+.restaurant-contact, .hotel-contact {
+display: flex;
+justify-content: space-between;
+margin-top: auto;
+}
+
+.restaurant-contact a, .hotel-contact a {
+color: var(--secondary-color);
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s ease;
+font-size: 0.9rem;
+}
+
+.restaurant-contact a:hover, .hotel-contact a:hover {
+color: var(--primary-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+.timeline-content {
+width: 48%;
+}
+}
+
+@media (max-width: 992px) {
+.section-padding {
+padding: 50px 0;
+}
+
+.section-padding-lg {
+padding: 60px 0;
+}
+
+.hero-section {
+padding: 120px 0 60px;
+}
+
+.timeline::before {
+left: 30px;
+}
+
+.timeline-content {
+width: calc(100% - 60px);
+margin-left: 60px !important;
+}
+
+.timeline-dot {
+left: 30px;
+}
+
+.food-gallery-item {
+width: calc(50% - 10px);
+}
+
+.music-player {
+bottom: 15px;
+left: 15px;
+right: 15px;
+max-width: none;
+}
+
+.music-player span {
+max-width: none;
+}
+
+.past-gallery {
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+}
+
+@media (max-width: 768px) {
+.section-padding {
+padding: 40px 0;
+}
+
+.section-padding-lg {
+padding: 50px 0;
+}
+
+.hero-section {
+padding: 100px 0 50px;
+}
+
+.navbar-brand {
+font-size: 1.1rem;
+}
+
+.nav-link {
+margin: 5px 0;
+font-size: 0.9rem;
+}
+
+.food-gallery-item {
+width: 100%;
+height: 200px;
+}
+
+.food-caption {
+font-size: 14px;
+white-space: normal;
+}
+
+.tourism-image img {
+height: 200px;
+}
+
+.tourism-caption {
+padding: 10px;
+}
+
+.tourism-caption h5 {
+font-size: 1rem;
+}
+
+.tourism-caption p {
+font-size: 0.85rem;
+}
+
+.card-title {
+font-size: 1.1rem;
+}
+
+.card-body {
+padding: 15px;
+}
+
+.testimonial-card {
+padding: 20px;
+}
+
+.testimonial-text {
+font-size: 0.9rem;
+}
+
+.hospital-card, .school-card {
+padding: 20px;
+}
+
+.info-box {
+padding: 20px;
+}
+
+.modal-content {
+width: 95%;
+margin-top: 5vh;
+}
+
+.past-gallery {
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.image-grid {
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+}
+
+@media (max-width: 576px) {
+.section-padding {
+padding: 30px 0;
+}
+
+.section-padding-lg {
+padding: 40px 0;
+}
+
+.hero-section {
+padding: 80px 0 40px;
+}
+
+.lead {
+font-size: 1rem;
+}
+
+.food-gallery {
+gap: 15px;
+}
+
+.food-gallery-item {
+height: 180px;
+}
+
+.card-img-top {
+height: 150px;
+}
+
+.testimonial-card::before {
+font-size: 60px;
+top: -15px;
+left: 15px;
+}
+
+.author-avatar {
+width: 40px;
+height: 40px;
+}
+
+.person-container {
+width: 80px;
+height: 80px;
+}
+
+.close {
+font-size: 30px;
+right: 20px;
+top: 10px;
+}
+
+.past-gallery {
+grid-template-columns: 1fr;
+}
+
+.past-item {
+height: 200px;
+}
+
+.image-grid {
+grid-template-columns: 1fr;
+}
+}
+</style>
+</head>
+<body>
+<!-- Enhanced Loading Screen -->
+<div class="loader-wrapper" id="loader">
+<div class="loader">
+<div class="loader-circle"></div>
+<div class="loader-circle"></div>
+<div class="loader-circle"></div>
+</div>
+<div class="loader-text">EXPLORING BURHANPUR</div>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav">
+<div class="container">
+<a class="navbar-brand" href="#"><i class="fas fa-monument"></i> Burhanpur Explorer</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+<li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+<li class="nav-item"><a class="nav-link" href="#wars">War Stories</a></li>
+<li class="nav-item"><a class="nav-link" href="#attractions">Attractions</a></li>
+<li class="nav-item"><a class="nav-link" href="#tourism">Tourism Gallery</a></li>
+<li class="nav-item"><a class="nav-link" href="#past">Historical Gallery</a></li>
+<li class="nav-item"><a class="nav-link" href="#food-markets">Food & Markets</a></li>
+<li class="nav-item"><a class="nav-link" href="#healthcare">Healthcare</a></li>
+<li class="nav-item"><a class="nav-link" href="#restaurants-hotels">Dining & Stay</a></li>
+<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+<li class="nav-item"><a class="nav-link" href="#makers">Makers</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Enhanced Header Hero Section -->
+<header class="hero-section">
+<div class="hero-content container">
+<h1 data-aos="fade-down">Explore Burhanpur</h1>
+<div class="decorative-line"></div>
+<p class="lead" data-aos="fade-up">The Historical City on Banks of Tapti River – Gateway to Southern India</p>
+<button class="btn btn-primary btn-lg mt-4" data-aos="fade-up" data-aos-delay="200">Discover More</button>
+</div>
+</header>
+
+<!-- Enhanced Music Player -->
+<div class="music-player">
+<div class="music-controls">
+<i class="fas fa-backward" id="prevTrack"></i>
+<i class="fas fa-play" id="musicToggle"></i>
+<i class="fas fa-forward" id="nextTrack"></i>
+<div class="music-progress">
+<div class="music-progress-bar" id="progressBar"></div>
+</div>
+</div>
+<span>Peaceful Sitar Melody</span>
+<div class="music-volume">
+<i class="fas fa-volume-up"></i>
+<div class="volume-slider">
+<div class="volume-bar" id="volumeBar"></div>
+</div>
+</div>
+<audio id="bgMusic" loop>
+<!-- Peaceful Indian classical instrumental music -->
+<source src="https://www.bensound.com/bensound-music/bensound-india.mp3" type="audio/mpeg">
+Your browser does not support audio element.
+</audio>
+</div>
+
+<!-- Main Content -->
+<main class="container">
+
+<!-- Introduction Section -->
+<section id="introduction" class="section-padding">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Introduction to Burhanpur</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6" data-aos="fade-right">
+<p class="lead">Welcome to Burhanpur, a historic city in Madhya Pradesh, India, situated on the north bank of the Tapti River. Founded in 1380 and named after Sufi saint Burhan-ud-Din, it has been a meeting point of many cultures under the Faruqi, Mughal, Maratha, and British rulers.</p>
+<p class="lead">With a population of over 210,000 people, it's famous for its Mughal architecture, textile industry, and as the place where Mumtaz Mahal passed away, which inspired the creation of the Taj Mahal. Explore its rich heritage, bustling markets, and delicious cuisine.</p>
+</div>
+<div class="col-lg-6" data-aos="fade-left">
+<div class="img-container rounded" style="height: 350px;">
+<img src="https://z-cdn-media.chatglm.cn/files/e3c568b6-2021-49fc-9470-2132ee470fad.jpg?auth_key=1865796751-6529d18be99841d4b7d0b344d71a6b00-0-fad6165f8eb414dbd01cb6639f653874" alt="Burhanpur City View">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-city"></i>
+<h5>Burhanpur City</h5>
+<p>Historical city on the banks of Tapti River</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- History Section -->
+<section id="history" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Historical Value</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<p class="lead mb-5" data-aos="fade-up">Burhanpur's history is ancient and spans several centuries:</p>
+<div class="timeline">
+<div class="timeline-item" data-aos="fade-right">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<h4>14th-15th Century</h4>
+<p>Founded by Malik Nasir Khan of the Faruqi Dynasty in 1380. It became the capital of the Khandesh Sultanate and a thriving trade center under rulers like Miran Adil Khan II.</p>
+<div class="img-container rounded mt-4" style="height: 350px;">
+<img src="https://z-cdn-media.chatglm.cn/files/36e9583b-8e8e-4de0-95f6-e49003fe80d8.jpg?auth_key=1865796751-7db5071290a94e32a14278bcd039c7cd-0-923bdbb9f16689e0c1cbcfb67552150f" alt="Ancient Fort" style="object-fit: contain; transform: scale(0.7);">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-landmark"></i>
+<h5>Ancient Fort</h5>
+<p>15th century architecture</p>
+</div>
+</div>
+</div>
+</div>
+<div class="timeline-item" data-aos="fade-left">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<h4>Mughal Era (1601 onwards)</h4>
+<p>Annexed by Emperor Akbar in 1601. Served as a key outpost; governors like Abdul Rahim Khan-i-Khanan built many gardens and water systems. Prince Parviz and Shah Jahan lived here. Mumtaz Mahal died in 1631 while giving birth, initially buried in Zainabad before being taken to Agra.</p>
+<div class="img-container rounded mt-4" style="height: 350px;">
+<img src="https://z-cdn-media.chatglm.cn/files/38073249-ff0e-4024-a283-3e7ffa2c3fb2.jpg?auth_key=1865796751-05ca1151aa7146dda5e1aec7ff7728b0-0-3a248c3785c8632d3d84279e9fbd74e7" alt="Mughal Architecture" style="object-fit: contain; transform: scale(0.7);">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-mosque"></i>
+<h5>Mughal Architecture</h5>
+<p>17th century monuments</p>
+</div>
+</div>
+</div>
+</div>
+<div class="timeline-item" data-aos="fade-right">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<h4>The Black Taj Mahal</h4>
+<p>Built by Abdul Rahim Khan-i-Khanan in memory of his wife, this black stone monument is often called the "Black Taj" due to its resemblance to the Taj Mahal. Though smaller in scale, it features similar architectural elements with intricate carvings and a serene garden setting. It stands as a testament to love and architectural prowess of the Mughal era in Burhanpur.</p>
+<div class="img-container rounded mt-4" style="height: 350px;">
+<img src="https://z-cdn-media.chatglm.cn/files/fa75527e-a080-44bc-a724-2f6cd1308c2b.jpeg?auth_key=1865800609-0f16545e799f44ebaa3b415a821c9c3d-0-b54cf6651702c7f255eb983af896db5f" alt="Black Taj Mahal" style="object-fit: contain; transform: scale(0.7);">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-taj-mahal"></i>
+<h5>Black Taj Mahal</h5>
+<p>17th century monument</p>
+</div>
+</div>
+</div>
+</div>
+<div class="timeline-item" data-aos="fade-left">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<h4>Maratha and British Period</h4>
+<p>Conquered by Marathas in the 1720s under Peshwa Bajirao and again in the 1750s. Handed over to the British in 1818. Active in the 1857 Uprising and freedom movements.</p>
+<div class="img-container rounded mt-4" style="height: 350px;">
+<img src="https://z-cdn-media.chatglm.cn/files/3397a1bc-ce11-4236-993e-7d7bd571ab5a.jpg?auth_key=1865796751-581a48a073a84ab9b1db477fc868f0cb-0-581b14ee4f9836494eb444ad2b273e23" alt="Historical Monument" style="object-fit: contain; transform: scale(0.7);">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-monument"></i>
+<h5>Historical Monument</h5>
+<p>18th-19th century heritage</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class="lead mt-5" data-aos="fade-up">The city's prehistoric artifacts, Sufi influences, and Mughal monuments showcase its cultural depth beautifully.</p>
+</div>
+</div>
+</section>
+
+<!-- Wars Section -->
+<section id="wars" class="section-padding">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Stories of Wars and Battles</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+<div class="info-box">
+<h4><i class="fas fa-shield-alt"></i> Akbar's Conquest (1600-1601)</h4>
+<p>Mughal Emperor Akbar took over Khandesh without much opposition, inspecting Asirgarh Fort.</p>
+<div class="img-container rounded mt-4" style="height: 220px;">
+<img src="https://z-cdn-media.chatglm.cn/files/32db33e6-8b8e-4bc7-85b4-d6c4db9f3b97.jpg?auth_key=1865796751-db9702c806e9435ebb462ddee36b8f94-0-19949a3d8b5e31b48059f2208d471d6d" alt="Akbar's Conquest" style="object-fit: contain;">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-crown"></i>
+<h5>Akbar's Conquest</h5>
+<p>Mughal expansion</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+<div class="info-box">
+<h4><i class="fas fa-crown"></i> Shah Jahan's Deccan Campaigns (1630-1632)</h4>
+<p>From Burhanpur, Shah Jahan led operations against Bijapur, Ahmadnagar, and Golconda kingdoms.</p>
+<div class="img-container rounded mt-4" style="height: 220px;">
+<img src="https://z-cdn-media.chatglm.cn/files/68eca5f0-23e7-47d9-b2ba-f386a93673b7.jpeg?auth_key=1865796751-38a260e680ff4477ac7d9c787a7c1865-0-c3172c5b0debb6bedf94c7cb58afd79b" alt="Shah Jahan's Campaigns" style="object-fit: contain;">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-taj-mahal"></i>
+<h5>Shah Jahan</h5>
+<p>Deccan campaigns</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+<div class="info-box">
+<h4><i class="fas fa-horse"></i> Maratha Sacking (1681)</h4>
+<p>Maratha army under Sambhaji raided the city and caused significant damage.</p>
+<div class="img-container rounded mt-4" style="height: 220px;">
+<img src="https://z-cdn-media.chatglm.cn/files/d68deae9-cac6-42a5-b6e7-4284c77c1441.jpg?auth_key=1865796751-bcaa1883b07a4635af38f20b544f63c3-0-0c0f07bec7e56127dccca045f42ac9c5" alt="Maratha Warriors" style="object-fit: contain;">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-horse"></i>
+<h5>Maratha Warriors</h5>
+<p>17th century cavalry</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+<div class="info-box">
+<h4><i class="fas fa-flag"></i> 1857 Uprising</h4>
+<p>Tatya Tope led rebellions, burning government buildings in nearby areas.</p>
+<div class="img-container rounded mt-4" style="height: 220px;">
+<img src="https://z-cdn-media.chatglm.cn/files/605517ac-9544-44a6-ae2a-8432d222f818.jpg?auth_key=1865796751-9cdc2b4f83fb40e68090662a858cb5d1-0-02f50d9dc72fc31ffb5bcad5519bdffb" alt="Freedom Fighters" style="object-fit: contain;">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-flag"></i>
+<h5>Freedom Fighters</h5>
+<p>1857 uprising</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class="lead mt-5" data-aos="fade-up">These events highlight Burhanpur's strategic role as a gateway to the Deccan.</p>
+</section>
+
+<!-- Attractions Section -->
+<section id="attractions" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Places of Attraction</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+<div class="card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/36e9583b-8e8e-4de0-95f6-e49003fe80d8.jpg?auth_key=1865796751-7db5071290a94e32a14278bcd039c7cd-0-923bdbb9f16689e0c1cbcfb67552150f" class="card-img-top" alt="Asirgarh Fort">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-fort-awesome"></i>
+<h5>Asirgarh Fort</h5>
+</div>
+</div>
+<div class="card-body">
+<h5 class="card-title">Asirgarh Fort</h5>
+<p class="card-text">Built in the 15th century by Asa Ahir; conquered by Akbar. Features Islamic architecture and a temple. Open 10 AM - 5 PM.</p>
+<button class="btn btn-primary">View Details</button>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+<div class="card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/3397a1bc-ce11-4236-993e-7d7bd571ab5a.jpg?auth_key=1865796751-581a48a073a84ab9b1db477fc868f0cb-0-581b14ee4f9836494eb444ad2b273e23" class="card-img-top" alt="Shahi Qila">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-palace"></i>
+<h5>Shahi Qila</h5>
+</div>
+</div>
+<div class="card-body">
+<h5 class="card-title">Shahi Qila</h5>
+<p class="card-text">Mughal palace expanded by Shah Jahan; site of Mumtaz Mahal's death. Includes royal baths and halls.</p>
+<button class="btn btn-primary">View Details</button>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+<div class="card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/38073249-ff0e-4024-a283-3e7ffa2c3fb2.jpg?auth_key=1865796751-05ca1151aa7146dda5e1aec7ff7728b0-0-3a248c3785c8632d3d84279e9fbd74e7" class="card-img-top" alt="Jama Masjid">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-mosque"></i>
+<h5>Jama Masjid</h5>
+</div>
+</div>
+<div class="card-body">
+<h5 class="card-title">Jama Masjid</h5>
+<p class="card-text">Built under Faruqi rule, completed by Akbar; unique Sanskrit-Arabic inscriptions.</p>
+<button class="btn btn-primary">View Details</button>
+</div>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+<div class="col-lg-12 text-center" data-aos="fade-up">
+<p class="lead">Other must-visits: Dargah-e-Hakimi, Tomb of Shah Nawaz Khan (Black Taj), Ahukhana, Bibi Ki Masjid, Raja Jai Singh Ki Chhatri, Gurudwaras, and churches.</p>
+</div>
+</div>
+</section>
+
+<!-- Tourism Gallery Section -->
+<section id="tourism" class="section-padding">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Tourism Gallery</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+<div class="tourism-image">
+<img src="https://z-cdn-media.chatglm.cn/files/36e9583b-8e8e-4de0-95f6-e49003fe80d8.jpg?auth_key=1865796751-7db5071290a94e32a14278bcd039c7cd-0-923bdbb9f16689e0c1cbcfb67552150f" alt="Asirgarh Fort">
+<div class="tourism-caption">
+<h5>Asirgarh Fort</h5>
+<p>Ancient stone fortress with historical significance</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+<div class="tourism-image">
+<img src="https://z-cdn-media.chatglm.cn/files/3397a1bc-ce11-4236-993e-7d7bd571ab5a.jpg?auth_key=1865796751-581a48a073a84ab9b1db477fc868f0cb-0-581b14ee4f9836494eb444ad2b273e23" alt="Shahi Qila">
+<div class="tourism-caption">
+<h5>Shahi Qila</h5>
+<p>Ancient royal palace with rich history</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+<div class="tourism-image">
+<img src="https://z-cdn-media.chatglm.cn/files/38073249-ff0e-4024-a283-3e7ffa2c3fb2.jpg?auth_key=1865796751-05ca1151aa7146dda5e1aec7ff7728b0-0-3a248c3785c8632d3d84279e9fbd74e7" alt="Jama Masjid">
+<div class="tourism-caption">
+<h5>Jama Masjid</h5>
+<p>Ancient mosque with beautiful arches and towers</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+<div class="tourism-image">
+<img src="https://z-cdn-media.chatglm.cn/files/e3c568b6-2021-49fc-9470-2132ee470fad.jpg?auth_key=1865796751-6529d18be99841d4b7d0b344d71a6b00-0-fad6165f8eb414dbd01cb6639f653874" alt="Tapti River">
+<div class="tourism-caption">
+<h5>Tapti River</h5>
+<p>Scenic river flowing through the historic city</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+<div class="tourism-image">
+<img src="https://z-cdn-media.chatglm.cn/files/402dccba-ca26-438e-a1d7-f6d9785dad54.jpeg?auth_key=1865796751-46a2aaccbb414cbd83d319e2c552e9fd-0-70f2a2a1edbddc5e3cc612016331390c" alt="White Dome Buildings">
+<div class="tourism-caption">
+<h5>White Dome Buildings</h5>
+<p>Traditional religious architecture with serene surroundings</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+<div class="tourism-image">
+<img src="https://z-cdn-media.chatglm.cn/files/5da25adf-5fa4-4067-9168-dd9f7ea63130.jpeg?auth_key=1865796751-e2a1392ac4204c3880e54a64548e831d-0-80181b6abbcbc4e5d918cd9e93fd388b" alt="Cultural Event">
+<div class="tourism-caption">
+<h5>Cultural Celebrations</h5>
+<p>Traditional festivals and events in Burhanpur</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Past Section (moved here) -->
+<section id="past" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Historical Gallery</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<p class="lead mb-5" data-aos="fade-up">Step back in time and explore the rich historical heritage of Burhanpur through these captivating images from the past:</p>
+
+<div class="past-gallery">
+<div class="past-item" data-aos="zoom-in" data-aos-delay="100">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/36e9583b-8e8e-4de0-95f6-e49003fe80d8.jpg?auth_key=1865796751-7db5071290a94e32a14278bcd039c7cd-0-923bdbb9f16689e0c1cbcfb67552150f" alt="Asirgarh Fort">
+<div class="past-caption">
+<h5>Asirgarh Fort</h5>
+<p>15th century fortress with historical significance</p>
+</div>
+</div>
+</div>
+<div class="past-item" data-aos="zoom-in" data-aos-delay="200">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/3397a1bc-ce11-4236-993e-7d7bd571ab5a.jpg?auth_key=1865796751-581a48a073a84ab9b1db477fc868f0cb-0-581b14ee4f9836494eb444ad2b273e23" alt="Shahi Qila">
+<div class="past-caption">
+<h5>Shahi Qila</h5>
+<p>Ancient royal palace with rich history</p>
+</div>
+</div>
+</div>
+<div class="past-item" data-aos="zoom-in" data-aos-delay="300">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/38073249-ff0e-4024-a283-3e7ffa2c3fb2.jpg?auth_key=1865796751-05ca1151aa7146dda5e1aec7ff7728b0-0-3a248c3785c8632d3d84279e9fbd74e7" alt="Jama Masjid">
+<div class="past-caption">
+<h5>Jama Masjid</h5>
+<p>17th century mosque with beautiful arches and towers</p>
+</div>
+</div>
+</div>
+<div class="past-item" data-aos="zoom-in" data-aos-delay="400">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/fa75527e-a080-44bc-a724-2f6cd1308c2b.jpeg?auth_key=1865800609-0f16545e799f44ebaa3b415a821c9c3d-0-b54cf6651702c7f255eb983af896db5f" alt="Black Taj Mahal">
+<div class="past-caption">
+<h5>Black Taj Mahal</h5>
+<p>17th century monument</p>
+</div>
+</div>
+</div>
+<div class="past-item" data-aos="zoom-in" data-aos-delay="500">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/3397a1bc-ce11-4236-993e-7d7bd571ab5a.jpg?auth_key=1865796751-581a48a073a84ab9b1db477fc868f0cb-0-581b14ee4f9836494eb444ad2b273e23" alt="Historical Monument">
+<div class="past-caption">
+<h5>Historical Monument</h5>
+<p>18th-19th century heritage</p>
+</div>
+</div>
+</div>
+</div>
+<p class="lead mt-5" data-aos="fade-up">The city's prehistoric artifacts, Sufi influences, and Mughal monuments showcase its cultural depth beautifully.</p>
+</div>
+</div>
+</section>
+
+<!-- Food and Markets Section -->
+<section id="food-markets" class="section-padding">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Market Specialties and Food</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<p class="lead mb-5" data-aos="fade-up">Burhanpur's vibrant markets offer textiles, handicrafts, and street food delights:</p>
+
+<h4 class="mb-4 text-center" data-aos="fade-up"><i class="fas fa-utensils"></i> Famous Food Items of Burhanpur</h4>
+<div class="food-gallery mb-5">
+<div class="food-gallery-item" data-aos="zoom-in" data-aos-delay="100">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/f5b7c204-60df-4ebb-8b76-025125c3a0ab.jpeg?auth_key=1865967544-38b0ea88eb3348c0815e762dbce8beb6-0-f4972683b881c4437e68ba13a3e26235" alt="Special Burhanpur Jalebi">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-cookie"></i>
+</div>
+</div>
+<div class="food-caption">Special Burhanpur Jalebi</div>
+</div>
+<div class="food-gallery-item" data-aos="zoom-in" data-aos-delay="200">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/14636afd-e0e8-493f-9e6c-06e0cad44eb2.jpeg?auth_key=1865967544-ec9236e30d2c4f689cdbd495ca9be044-0-34c06c0729d96f65017f2bbd9dfe4e72" alt="Mini Kachori">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-cookie-bite"></i>
+</div>
+</div>
+<div class="food-caption">Mini Kachori</div>
+</div>
+<!-- Additional Mini Kachori images -->
+<div class="food-gallery-item" data-aos="zoom-in" data-aos-delay="300">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/b4b70b61-03da-440f-b3c8-a533a764981e.jpeg?auth_key=1865968753-92947249244e4509aa41c2f5b1f91b7b-0-e5798b055e130b954dfc9f623c87ec3b" alt="Mini Kachori with Filling">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-cookie-bite"></i>
+</div>
+</div>
+<div class="food-caption">Mini Kachori with Filling</div>
+</div>
+<div class="food-gallery-item" data-aos="zoom-in" data-aos-delay="400">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/dbe4cc96-b2a8-4b00-a364-dcb95e0a0564.jpeg?auth_key=1865796751-030dca0bf0ca4085985d94ad02917e74-0-c5fedbb71d5ff5f7025ed662e5066aa7" alt="Mini Kachori Variety">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-cookie-bite"></i>
+</div>
+</div>
+<div class="food-caption">Mini Kachori Variety</div>
+</div>
+</div>
+
+<h4 class="mb-4 text-center" data-aos="fade-up"><i class="fas fa-shopping-bag"></i> Famous Markets</h4>
+<div class="row">
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+<div class="card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/444b1485-6b2c-4531-935c-1c46196a0ecd.jpeg?auth_key=1865968753-db6819c9cf2d4239a423f254a6d4a928-0-1a1f1afffba5a2e257e4ad76b3018d19" class="card-img-top" alt="Shanwara Gate Market">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-store"></i>
+<h5>Shanwara Gate Market</h5>
+</div>
+</div>
+<div class="card-body">
+<h5 class="card-title">Shanwara Gate Market</h5>
+<p class="card-text">Bustling bazaar for snacks, textiles, and local items. Famous for street food and traditional crafts.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+<div class="card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/8fca243f-3818-4e93-b920-7852f9aeb305.jpeg?auth_key=1865968753-b8b91517cd1443638b8eb42d3c8a5097-0-e241e388ae73f0b560071b50eddab44e" class="card-img-top" alt="Textile Market">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-tshirt"></i>
+<h5>Textile Market</h5>
+</div>
+</div>
+<div class="card-body">
+<h5 class="card-title">Textile Market</h5>
+<p class="card-text">Largest power loom center in Madhya Pradesh. Known for quality fabrics at reasonable prices.</p>
+<!-- Additional Textile Market images -->
+<div class="image-grid mt-3">
+<div class="image-grid-item">
+<img src="https://z-cdn-media.chatglm.cn/files/8fca243f-3818-4e93-b920-7852f9aeb305.jpeg?auth_key=1865968753-b8b91517cd1443638b8eb42d3c8a5097-0-e241e388ae73f0b560071b50eddab44e" alt="Textile Production">
+</div>
+<div class="image-grid-item">
+<img src="https://z-cdn-media.chatglm.cn/files/8fca243f-3818-4e93-b920-7852f9aeb305.jpeg?auth_key=1865968753-b8b91517cd1443638b8eb42d3c8a5097-0-e241e388ae73f0b560071b50eddab44e" alt="Textile Factory">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Healthcare Section - 2 Hospitals -->
+<section id="healthcare" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Healthcare Facilities</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<p class="lead mb-5" data-aos="fade-up">Burhanpur offers quality healthcare services with premier medical facilities:</p>
+<div class="row">
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+<div class="hospital-card">
+<div class="featured-badge">#1 Healthcare Provider</div>
+<div class="text-center">
+<img src="https://z-cdn-media.chatglm.cn/files/5f29f6c6-f25f-4990-8f8a-d1a313ec6419.jpeg?auth_key=1865799574-f09e1305809f479c9bf7c62db800195d-0-fd6a00c83e9b8ef93a495a5e07f5e7ef" alt="All Is Well Hospital" class="hospital-logo">
+<h5 class="hospital-name">All Is Well Hospital</h5>
+<p class="hospital-specialty">Multi-Specialty Healthcare Provider</p>
+<p class="hospital-address">Medical Campus, Burhanpur</p>
+<p class="text-primary fw-bold">Leading healthcare facility with advanced medical technology and experienced professionals</p>
+</div>
+<div class="hospital-contact">
+<a href="tel:+919876543210" class="btn btn-sm"><i class="fas fa-phone me-1"></i>Call</a>
+<a href="#" class="btn btn-sm"><i class="fas fa-map-marker-alt me-1"></i>Directions</a>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+<div class="hospital-card">
+<div class="featured-badge">Super Specialty</div>
+<div class="text-center">
+<img src="https://z-cdn-media.chatglm.cn/files/34183dd6-1b80-4c3e-a833-28ed0321e93f.jpg?auth_key=1866144529-07533069226549a0a220c4b9a6e4dc38-0-98c0592f6b45371352aef6cba36ea2b" alt="Apple Superspeciality Hospital" class="hospital-logo">
+<h5 class="hospital-name">Apple Superspeciality Hospital</h5>
+<p class="hospital-specialty">Super Speciality Medical Center</p>
+<p class="hospital-address">NH-52 Highway, Burhanpur</p>
+<p class="text-primary fw-bold">State-of-the-art facility with advanced cardiac, neuro, and orthopedic care</p>
+</div>
+<div class="hospital-contact">
+<a href="tel:+919876543211" class="btn btn-sm"><i class="fas fa-phone me-1"></i>Call</a>
+<a href="#" class="btn btn-sm"><i class="fas fa-map-marker-alt me-1"></i>Directions</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Restaurants and Hotels Section -->
+<section id="restaurants-hotels" class="section-padding">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Dining & Accommodation</h2>
+</div>
+</div>
+
+<!-- Restaurants Section -->
+<div class="row mb-5">
+<div class="col-lg-12">
+<h3 class="text-center mb-4" data-aos="fade-up"><i class="fas fa-utensils"></i> Fine Dining in Burhanpur</h3>
+<div class="row">
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+<div class="card restaurant-card">
+<div class="featured-badge">5 Star Restaurant</div>
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/162bbf9a-8080-4c29-ab21-556972739c7d.jpg?auth_key=1866141710-3bc437ff260d413eb8c26963b14697de-0-77c916e4f6e68bd5a6188659e1753041" class="card-img-top restaurant-image" alt="NaCl Restaurant">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-utensils"></i>
+<h5>NaCl Restaurant</h5>
+</div>
+</div>
+<div class="card-body restaurant-content">
+<h5 class="card-title restaurant-name">NaCl Restaurant</h5>
+<p class="card-text restaurant-description">Experience fine dining at its best in this modern restaurant featuring warm lighting, elegant decor, and a sophisticated ambiance. The golden ceiling decorations and spherical chandeliers create a luxurious atmosphere. With comfortable blue upholstered seating and lush greenery, NaCl offers a perfect blend of contemporary design and comfort.</p>
+<div class="rating">
+<span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+<span class="ms-2 text-muted">5 Star Dining</span>
+</div>
+<div class="restaurant-contact mt-3">
+<a href="#" class="btn btn-primary">Reserve Table</a>
+<a href="#" class="btn btn-outline-secondary">View Menu</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+<div class="card restaurant-card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/d9590e74-8555-4268-b860-fd14deea506a.jpg?auth_key=1866141710-0861922fe73c490086f2f06105b2beeb-0-b5d5f547edffa2497aa091941727ba49" class="card-img-top restaurant-image" alt="Kundan Chaupati">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-utensils"></i>
+<h5>Kundan Chaupati</h5>
+</div>
+</div>
+<div class="card-body restaurant-content">
+<h5 class="card-title restaurant-name">Kundan Chaupati</h5>
+<p class="card-text restaurant-description">A vibrant eatery offering authentic Indian and multi-cuisine delicacies. This popular restaurant is known for its diverse menu featuring Indian and international flavors. The outdoor seating area creates a casual dining experience perfect for enjoying local specialties while soaking in the bustling atmosphere of Burhanpur.</p>
+<div class="rating">
+<span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+<span class="ms-2 text-muted">Popular Eatery</span>
+</div>
+<div class="restaurant-contact mt-3">
+<a href="#" class="btn btn-primary">Reserve Table</a>
+<a href="#" class="btn btn-outline-secondary">View Menu</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Hotels Section -->
+<div class="row">
+<div class="col-lg-12">
+<h3 class="text-center mb-4" data-aos="fade-up"><i class="fas fa-bed"></i> Comfortable Stays in Burhanpur</h3>
+<div class="row">
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+<div class="card hotel-card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/789646de-adad-47d9-886f-c08049117782.jpg?auth_key=1866141710-5dda7bdee871483792f769839542c4b5-0-d7a832331e14448dc1b8f962279f86da" class="card-img-top hotel-image" alt="Mann Holiday Resort">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-hotel"></i>
+<h5>Mann Holiday Resort</h5>
+</div>
+</div>
+<div class="card-body hotel-content">
+<h5 class="card-title hotel-name">Mann Holiday Resort</h5>
+<p class="card-text hotel-description">Experience luxury and comfort at this modern multi-story hotel. With its striking contemporary architecture and warm lighting, Mann Holiday Resort offers a welcoming ambiance. The property features well-appointed rooms, modern amenities, and convenient parking facilities. Its prime location makes it an ideal choice for both business and leisure travelers exploring the historic city of Burhanpur.</p>
+<div class="rating">
+<span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+<span class="ms-2 text-muted">4 Star Hotel</span>
+</div>
+<div class="hotel-contact mt-3">
+<a href="#" class="btn btn-primary">Book Now</a>
+<a href="#" class="btn btn-outline-secondary">View Rooms</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+<div class="card hotel-card">
+<div class="img-container">
+<img src="https://z-cdn-media.chatglm.cn/files/f1a33689-aea5-4287-9c06-f7113568fbeb.jpg?auth_key=1866141710-95ea8315d94d48cea61ffa98a9cc6a65-0-0c11698dac5067f657771879f2a5f4c8" class="card-img-top hotel-image" alt="Tapti Retreat">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-hotel"></i>
+<h5>Tapti Retreat</h5>
+</div>
+</div>
+<div class="card-body hotel-content">
+<h5 class="card-title hotel-name">Tapti Retreat</h5>
+<p class="card-text hotel-description">A modern retreat featuring distinctive orange and gray architecture with a welcoming entrance canopy and pillars. Surrounded by lush greenery, this hotel offers a peaceful ambiance. The convenience of an on-site ATM makes it perfect for travelers. Tapti Retreat combines comfort with functionality, providing a relaxing stay experience in Burhanpur.</p>
+<div class="rating">
+<span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+<span class="ms-2 text-muted">4 Star Hotel</span>
+</div>
+<div class="hotel-contact mt-3">
+<a href="#" class="btn btn-primary">Book Now</a>
+<a href="#" class="btn btn-outline-secondary">View Rooms</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Education Section - 2 Schools -->
+<section id="education" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Educational Institutions</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<p class="lead mb-5" data-aos="fade-up">Burhanpur has premier educational institutions that provide excellent learning opportunities:</p>
+<div class="row">
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+<div class="school-card">
+<div class="featured-badge">Premier Institution</div>
+<div class="school-content">
+<div class="text-center mb-4">
+<img src="https://z-cdn-media.chatglm.cn/files/c50c7dde-4f9e-44c0-b813-1a8ffb677391.jpeg?auth_key=1866128819-34dd3c0872e94582bdc9d28d02050620-0-8c53735d5ff45dbc678659c71039ec3c" alt="Macrovision Academy" class="school-image">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-graduation-cap"></i>
+<h5>Macrovision Academy</h5>
+</div>
+</div>
+<h5 class="school-name">Macrovision Academy</h5>
+<p class="school-type">Premier Educational Institution • Established 2005</p>
+<p class="school-description">A leading educational institution in Burhanpur known for academic excellence, holistic development, and state-of-the-art facilities. Offers comprehensive programs from primary to higher secondary education with focus on both academics and extracurricular activities.</p>
+<!-- Additional Macrovision Academy images -->
+<div class="image-grid mt-3">
+<div class="image-grid-item">
+<img src="https://z-cdn-media.chatglm.cn/files/c50c7dde-4f9e-44c0-b813-1a8ffb677391.jpeg?auth_key=1866128819-34dd3c0872e94582bdc9d28d02050620-0-8c53735d5ff45dbc678659c71039ec3c" alt="Macrovision Campus">
+</div>
+<div class="image-grid-item">
+<img src="https://z-cdn-media.chatglm.cn/files/c50c7dde-4f9e-44c0-b813-1a8ffb677391.jpeg?auth_key=1866128819-34dd3c0872e94582bdc9d28d02050620-0-8c53735d5ff45dbc678659c71039ec3c" alt="Macrovision Building">
+</div>
+</div>
+</div>
+<div class="school-contact">
+<a href="tel:+919876543214" class="btn btn-sm"><i class="fas fa-phone me-1"></i>Call</a>
+<a href="#" class="btn btn-sm"><i class="fas fa-globe me-1"></i>Website</a>
+</div>
+</div>
+</div>
+<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+<div class="school-card">
+<div class="school-content">
+<div class="text-center mb-4">
+<img src="https://z-cdn-media.chatglm.cn/files/d97617e4-fdbb-4ffb-87ec-c93fc83c79e9.jpg?auth_key=1866144529-45f8853fc029473591d9672559c3f5e9e9d-0-9d8ac450480d81172b98b07e14edf719" alt="Nahar School" class="school-image">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-graduation-cap"></i>
+<h5>Nehru public School</h5>
+</div>
+</div>
+<h5 class="school-name">Nehru Montessori Sr. Sec. School</h5>
+<p class="school-type">Montessori & Secondary School • Established 1964</p>
+<p class="school-description">A well-established educational institution with 50 years of educational excellence. Known for its child-centered Montessori approach in early years and comprehensive secondary education. Features modern facilities, experienced faculty, and a nurturing environment that promotes holistic development.</p>
+</div>
+<div class="school-contact">
+<a href="tel:+919876543215" class="btn btn-sm"><i class="fas fa-phone me-1"></i>Call</a>
+<a href="#" class="btn btn-sm"><i class="fas fa-globe me-1"></i>Website</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Simplified Makers Section -->
+<section id="makers" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Makers</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="makers-section" data-aos="fade-up">
+<h3><i class="fas fa-users text-primary"></i> Project Contributors</h3>
+<div class="makers-list">
+<div class="maker-item" data-aos="zoom-in" data-aos-delay="100">
+<h4>Sairam C. Tayade</h4>
+<div class="role">(Innovator)</div>
+</div>
+<div class="maker-item" data-aos="zoom-in" data-aos-delay="200">
+<h4>Jayeshwar Sahu</h4>
+<div class="role">(Base Developer)</div>
+</div>
+<div class="maker-item" data-aos="zoom-in" data-aos-delay="300">
+<h4>Devansh Agrawal</h4>
+<div class="role">(Jr Support)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Special Thanks Section -->
+<section id="special-thanks" class="section-padding">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Special Thanks</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="special-thanks" data-aos="fade-up">
+<h3><i class="fas fa-heart text-danger"></i> Acknowledgments</h3>
+<div class="special-thanks-content">
+<div class="special-thanks-text">
+<h4>Gratitude to Our Contributors</h4>
+<p>We extend our heartfelt gratitude to all the individuals who have contributed to the development and preservation of Burhanpur's rich heritage and culture. Their dedication, vision, and hard work have been instrumental in shaping the city's present and future.</p>
+
+<p>This website serves as a tribute to the collective efforts of historians, architects, innovators, educators, healthcare professionals, and community leaders who have worked tirelessly to promote Burhanpur's historical significance while embracing modern development.</p>
+
+<p>Special appreciation to the local community members who have preserved oral histories, traditional crafts, and cultural practices that make Burhanpur a unique destination with a living heritage.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Parallax Section -->
+<section class="parallax-section" style="background-image: url('https://z-cdn-media.chatglm.cn/files/36e9583b-8e8e-4de0-95f6-e49003fe80d8.jpg?auth_key=1865796751-7db5071290a94e32a14278bcd039c7cd-0-923bdbb9f16689e0c1cbcfb67552150f');">
+<div class="parallax-overlay"></div>
+<div class="parallax-content">
+<div class="container">
+<h2 class="display-4 mb-4" data-aos="fade-up">Experience Rich Heritage</h2>
+<p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">Step back in time and explore centuries-old monuments, vibrant markets, and cultural traditions of Burhanpur</p>
+<button class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="200">Plan Your Visit</button>
+</div>
+</div>
+</section>
+
+<!-- Importance Section -->
+<section id="importance" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">Importance of Burhanpur</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="info-box" data-aos="fade-up">
+<h3><i class="fas fa-star"></i> Why Burhanpur is Important</h3>
+<ul>
+<li><strong>Strategic Location:</strong> Gateway to Southern India, on trade routes between Agra and Surat.</li>
+<li><strong>Economic Hub:</strong> Largest power loom center in Madhya Pradesh; textile, cotton, and oil mills.</li>
+<li><strong>Cultural Diversity:</strong> Mix of Hindu, Muslim, Buddhist, and Jain influences; languages like Urdu, Hindi, Marathi.</li>
+<li><strong>Historical Link:</strong> Inspiration for Taj Mahal; featured in Jules Verne's "Around the World in 80 Days."</li>
+</ul>
+</div>
+<div class="row mt-5">
+<div class="col-md-6" data-aos="fade-right">
+<div class="img-container rounded" style="height: 250px;">
+<img src="https://z-cdn-media.chatglm.cn/files/e3c568b6-2021-49fc-9470-2132ee470fad.jpg?auth_key=1865796751-6529d18be99841d4b7d0b344d71a6b00-0-fad6165f8eb414dbd01cb6639f653874" class="img-fluid" alt="Tapti River">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-water"></i>
+<h5>Tapti River</h5>
+<p>Scenic river flowing through the historic city</p>
+</div>
+</div>
+</div>
+<div class="col-md-6" data-aos="fade-left">
+<div class="img-container rounded" style="height: 250px;">
+<img src="https://z-cdn-media.chatglm.cn/files/402dccba-ca26-438e-a1d7-f6d9785dad54.jpeg?auth_key=1865796751-46a2aaccbb414cbd83d319e2c552e9fd-0-70f2a2a1edbddc5e3cc612016331390c" class="img-fluid" alt="Cultural Heritage">
+<div class="img-fallback" style="display: none;">
+<i class="fas fa-theater-masks"></i>
+<h5>Cultural Heritage</h5>
+<p>Rich traditions</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Visitor Testimonials Section -->
+<section id="testimonials" class="section-padding">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center mb-5">
+<h2 class="section-title" data-aos="fade-up">What Visitors Say</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+<div class="testimonial-card">
+<p class="testimonial-text">"Burhanpur is a hidden gem! The historical monuments are breathtaking, and the food is simply amazing. The Mawa Jalebi is to die for!"</p>
+<div class="testimonial-author">
+<div class="person-container">
+<img src="https://picsum.photos/seed/priya-sharma/120/120.jpg" class="author-avatar" alt="Priya Sharma">
+</div>
+<div>
+<p class="author-name">Priya Sharma</p>
+<p class="author-location">Mumbai, India</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+<div class="testimonial-card">
+<p class="testimonial-text">"The Black Taj is fascinating! The connection to the Taj Mahal's history makes this city special. A must-visit for history enthusiasts."</p>
+<div class="testimonial-author">
+<div class="person-container">
+<img src="https://picsum.photos/seed/john-williams/120/120.jpg" class="author-avatar" alt="John Williams">
+</div>
+<div>
+<p class="author-name">John Williams</p>
+<p class="author-location">London, UK</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+<div class="testimonial-card">
+<p class="testimonial-text">"The textile market is a paradise for shoppers! The quality and variety of fabrics at Burhanpur is unmatched. I bought so many beautiful sarees."</p>
+<div class="testimonial-author">
+<div class="person-container">
+<img src="https://picsum.photos/seed/anita-patel/120/120.jpg" class="author-avatar" alt="Anita Patel">
+</div>
+<div>
+<p class="author-name">Anita Patel</p>
+<p class="author-location">Ahmedabad, India</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section-padding bg-light">
+<div class="row">
+<div class="col-lg-6" data-aos="fade-right">
+<div class="info-box">
+<h3><i class="fas fa-info-circle"></i> Visitor Information</h3>
+<ul>
+<li><strong>Best Time to Visit:</strong> October to March</li>
+<li><strong>Nearest Airport:</strong> Indore (160 km)</li>
+<li><strong>Nearest Railway Station:</strong> Burhanpur Junction</li>
+<li><strong>Languages:</strong> Hindi, Urdu, English, Marathi</li>
+<li><strong>Currency:</strong> Indian Rupee (INR)</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-6" data-aos="fade-left">
+<div class="info-box">
+<h3><i class="fas fa-envelope"></i> Contact Us</h3>
+<form id="contactForm">
+<div class="mb-3">
+<input type="text" class="form-control" placeholder="Your Name" required>
+</div>
+<div class="mb-3">
+<input type="email" class="form-control" placeholder="Your Email" required>
+</div>
+<div class="mb-3">
+<textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+</div>
+</div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-4 mb-4" data-aos="fade-up">
+<h5><i class="fas fa-monument"></i> Burhanpur Explorer</h5>
+<p>Your complete guide to the historical city of Burhanpur</p>
+</div>
+<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+<h5>Quick Links</h5>
+<ul class="list-unstyled">
+<li><a href="#introduction" class="text-white-50">Introduction</a></li>
+<li><a href="#attractions" class="text-white-50">Attractions</a></li>
+<li><a href="#food-markets" class="text-white-50">Food & Markets</a></li>
+<li><a href="#restaurants-hotels" class="text-white-50">Dining & Stay</a></li>
+</ul>
+</div>
+<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+<h5>Connect With Us</h5>
+<div class="d-flex gap-3">
+<a href="#" class="text-white fs-4"><i class="fab fa-facebook"></i></a>
+<a href="#" class="text-white fs-4"><i class="fab fa-twitter"></i></a>
+<a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+<a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+</div>
+<hr class="bg-white-50">
+<p class="mb-0">&copy; 2023 Burhanpur Explorer | Created with ❤️ for History Enthusiasts</p>
+</div>
+</footer>
+
+<!-- Scroll to Top Button -->
+<div class="scroll-to-top" id="scrollToTop">
+<i class="fas fa-arrow-up"></i>
+</div>
+
+<!-- Image Modal -->
+<div id="imageModal" class="image-modal">
+<span class="close">&times;</span>
+<img class="modal-content" id="modalImage">
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS Animation JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Custom JavaScript -->
+<script>
+// Initialize AOS
+AOS.init({
+duration: 800,
+once: true
+});
+
+// Hide loader when page is fully loaded
+window.addEventListener('load', function() {
+setTimeout(function() {
+const loader = document.getElementById('loader');
+loader.style.opacity = '0';
+loader.style.visibility = 'hidden';
+}, 1500);
+});
+
+// Navbar scroll effect
+window.addEventListener('scroll', function() {
+const navbar = document.getElementById('mainNav');
+if (window.scrollY > 50) {
+navbar.classList.add('scrolled');
+} else {
+navbar.classList.remove('scrolled');
+}
+
+// Update active nav link based on scroll position
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-link');
+
+let current = '';
+sections.forEach(section => {
+const sectionTop = section.offsetTop;
+const sectionHeight = section.clientHeight;
+if (pageYOffset >= sectionTop - 100) {
+current = section.getAttribute('id');
+}
+});
+
+navLinks.forEach(link => {
+link.classList.remove('active');
+if (link.getAttribute('href').substring(1) === current) {
+link.classList.add('active');
+}
+});
+});
+
+// Image error handling
+document.addEventListener('DOMContentLoaded', function() {
+const images = document.querySelectorAll('img');
+
+images.forEach(function(img) {
+// Add error handling
+img.onerror = function() {
+this.style.display = 'none';
+const fallback = this.parentElement.querySelector('.img-fallback');
+if (fallback) {
+fallback.style.display = 'flex';
+}
+};
+
+// Force error if image takes too long to load
+setTimeout(() => {
+if (!img.complete || img.naturalHeight === 0) {
+img.onerror();
+}
+}, 3000);
+});
+});
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+const target = document.querySelector(this.getAttribute('href'));
+if (target) {
+target.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+});
+});
+
+// Scroll to top functionality
+const scrollToTopBtn = document.getElementById('scrollToTop');
+
+window.addEventListener('scroll', () => {
+if (window.pageYOffset > 300) {
+scrollToTopBtn.classList.add('show');
+} else {
+scrollToTopBtn.classList.remove('show');
+}
+});
+
+scrollToTopBtn.addEventListener('click', () => {
+window.scrollTo({
+top: 0,
+behavior: 'smooth'
+});
+});
+
+// Enhanced Music Player
+const musicToggle = document.getElementById('musicToggle');
+const prevTrack = document.getElementById('prevTrack');
+const nextTrack = document.getElementById('nextTrack');
+const bgMusic = document.getElementById('bgMusic');
+const progressBar = document.getElementById('progressBar');
+const volumeBar = document.getElementById('volumeBar');
+let isPlaying = false;
+
+// Playlist with peaceful Indian classical music
+const playlist = [
+{ title: "Peaceful Sitar Melody", src: "https://www.bensound.com/bensound-music/bensound-india.mp3" },
+{ title: "Tranquil Flute", src: "https://www.bensound.com/bensound-music/bensound-slowmotion.mp3" },
+{ title: "Serene Meditation", src: "https://www.bensound.com/bensound-music/bensound-relaxing.mp3" },
+{ title: "Spiritual Journey", src: "https://www.bensound.com/bensound-music/bensound-spiritual.mp3" }
+];
+let currentTrack = 0;
+
+// Update music player UI
+function updateMusicPlayer() {
+const trackTitle = document.querySelector('.music-player span');
+trackTitle.textContent = playlist[currentTrack].title;
+
+// Reset progress bar
+progressBar.style.width = '0%';
+}
+
+// Update progress bar
+bgMusic.addEventListener('timeupdate', () => {
+if (bgMusic.duration) {
+const progress = (bgMusic.currentTime / bgMusic.duration) * 100;
+progressBar.style.width = `${progress}%`;
+}
+});
+
+// Play/Pause functionality
+musicToggle.addEventListener('click', function() {
+if (isPlaying) {
+bgMusic.pause();
+musicToggle.classList.remove('fa-pause');
+musicToggle.classList.add('fa-play');
+} else {
+// Note: Autoplay might be blocked by browsers, user interaction is required
+bgMusic.play().catch(e => {
+console.log("Audio play failed:", e);
+// Show a message to the user that they need to interact with the page first
+alert("Please click anywhere on the page to enable background music.");
+});
+musicToggle.classList.remove('fa-play');
+musicToggle.classList.add('fa-pause');
+}
+isPlaying = !isPlaying;
+});
+
+// Previous track
+prevTrack.addEventListener('click', () => {
+currentTrack = (currentTrack - 1 + playlist.length) % playlist.length;
+bgMusic.src = playlist[currentTrack].src;
+updateMusicPlayer();
+if (isPlaying) {
+bgMusic.play();
+}
+});
+
+// Next track
+nextTrack.addEventListener('click', () => {
+currentTrack = (currentTrack + 1) % playlist.length;
+bgMusic.src = playlist[currentTrack].src;
+updateMusicPlayer();
+if (isPlaying) {
+bgMusic.play();
+}
+});
+
+// Enable audio playback on first user interaction
+document.addEventListener('click', function enableAudio() {
+if (!isPlaying) {
+bgMusic.play().catch(e => console.log("Audio play failed:", e));
+isPlaying = true;
+musicToggle.classList.remove('fa-play');
+musicToggle.classList.add('fa-pause');
+}
+document.removeEventListener('click', enableAudio);
+}, { once: true });
+
+// Image Modal
+const modal = document.getElementById('imageModal');
+const modalImg = document.getElementById('modalImage');
+const closeBtn = document.querySelector('.close');
+
+// Add click event to all gallery images
+document.querySelectorAll('.tourism-image img, .card-img-top, .food-gallery-item img, .image-grid-item img, .restaurant-image, .hotel-image').forEach(img => {
+img.addEventListener('click', function() {
+modal.style.display = 'block';
+modalImg.src = this.src;
+});
+});
+
+closeBtn.addEventListener('click', function() {
+modal.style.display = 'none';
+});
+
+window.addEventListener('click', function(event) {
+if (event.target == modal) {
+modal.style.display = 'none';
+}
+});
+
+// Contact form submission
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+e.preventDefault();
+alert('Thank you for your message! We will get back to you soon.');
+this.reset();
+});
+</script>
+</body>
+</html>
